@@ -1,0 +1,217 @@
+	html,body{
+	font-family: "Montserrat";
+	scroll-behavior: smooth;
+}
+
+/*topbutton*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline-offset: 2px;
+  outline: 3px dashed darkgreen;
+  background-color: darkgrey;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  opacity: .8;
+  animation: animate 3s linear infinite;
+}
+#myBtn:hover {
+	opacity: 1;
+}
+
+/*header*/
+header {
+  height: 150vh;
+  background-size:100% 100%;
+  background-image:url('../images/bg.png');
+}
+.fixed-top.scrolled {
+  background-color: gainsboro; !important;
+  transition: background-color 200ms linear;
+}
+span.text{color: #DBDD33}
+.bg-text{
+	margin-top: 180px;
+	font-weight: bolder;
+}
+.bg-text-one{
+	margin-top: 111px;
+	font-weight: bolder;
+}
+.bg-text-two{
+	margin-bottom: 224px;
+}
+.bg-text-three{
+	margin-top: 78px;
+}
+.bg-text-four{
+	margin-top: 90px;
+}
+.bg-text-five{
+	margin-top: 108px;
+}
+.bg-text-six{
+	margin-top: 110px;
+	background-image: url('../images/vector-2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.bg-text-seven{
+	margin-top: 131px;
+}
+#about{
+	margin-top: 133px;
+}
+.text-one{
+	font-weight: 1000;
+}
+
+button.lets-talk{
+	background-color: #DBDD33;
+	padding: 10px;
+	font-weight: bold;
+}
+button.lets-talk-one{
+	border: none;
+	border-radius: 4px;
+	background-color: #DBDD33;
+	padding: 10px;
+	font-weight: bold;
+}
+div.bg{
+	margin-top: 160px;
+	background-image: url('../images/fuel-station.png');
+	background-size: cover;
+}
+div.bg-1{
+	background-image: url('../images/vector.png');
+	background-size: 100% 100%;
+}
+#bussiness{
+	margin-top: 130px;
+	background-color: black;
+}
+.bussiness{
+	margin-top: 154px;
+}
+.platform{
+	margin-top: 110px;
+}
+#platform-1{
+	margin-top: 110px;
+}
+#market{
+	margin-top: 130px;
+	background-color: black;
+}
+.row{
+	margin-right: 15px;
+}
+#showcase{
+	margin-top: 130px;
+	background-color: black;
+}
+.grid {
+  display: grid;
+  margin-top: 50px;
+	grid-template-columns: 200px 470px;
+	grid-template-rows: 300px 300px;
+	gap: 10px;
+}
+.grid > div {
+	text-align: center;
+}
+.grid-item-2{
+	margin-left: 10px;
+}
+.grid-item-5{
+	margin-top: -150px;
+	margin-left: 10px;
+}
+.grid-item-3{
+	margin-top: -305px;
+	margin-left: -30px;
+}
+.grid-item-4{
+	margin-top: 7px;
+	margin-left: 183px;
+}
+.grid-item-6{
+	margin-top: -143px;
+	margin-left: -177px;
+}
+ul.icon-1{
+	list-style-image: url('../images/ul-icon.png');
+}
+li.line{
+	font-size: 18px;
+	line-height: 30px;
+}
+.typy{
+	margin-top: -50px;
+	margin-bottom: 50px;
+}
+.member{
+	margin-top: -180px;
+}
+.member-1{
+	margin-top: 150px;
+}
+i{
+	color: #DBDD33;
+}
+a.link{
+	color: white;
+}
+a.lin:hover{
+	text-decoration: underline;
+}
+.contact{
+	background-color: #222222;
+	width: 98.9vw;
+}
+.book{
+	margin-top: 100px;
+}
+.form-control{
+	background-color: dimgray;
+	color: white;
+}
+small{
+	color: red;
+	font-size: 14px	;
+}
+
+/*footer*/
+footer{
+	background-color: black;
+	color: white;
+}
+.one{
+	margin-top: 60px;
+}
+.x-icon{
+	color: white;
+	padding: 5px;
+	font-size: 25px;
+	background-color: gray;
+	border-radius: 50%;
+}
+ul{
+	list-style: none;
+}
+ul>li>a.footer-link{
+	margin-left: -35px;
+	color: white;
+	line-height: 50px;
+}
+ul>li>a.footer-link:hover{
+	text-decoration: underline;
+}
